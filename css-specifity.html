@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebbLexicon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="/"> WebbLexicon</a></h1>
+    </header>
+
+<main>
+    <p><a href="index.html">Tillbaka</a></p>
+    <article>
+        <h1>Specifikation</h1>
+
+        <p>#id vinner över .class som vinner över element (exempelvis div). Vid lika så vinner det som står sist i Css-Filen.</p>
+        <h2>Varje regel har ett värde som kan skrivas som x,y,z</h2>
+            <ul>
+      <li><code>div { }</code> = (0,0,1)</li>
+      <li><code>.class { }</code> = (0,1,0)</li>
+      <li><code>#id { }</code> = (1,0,0)</li>
+      <li><code>div #id { }</code> = (1,0,1)</li>
+      <li><code>div#id1 #id { }</code> = (2,0,1)</li>
+    </ul>
+
+        <code>
+            <xmp>
+
+            </xmp>
+        </code>
+
+  
+</article>
+</main>
+</body>
+</html>
