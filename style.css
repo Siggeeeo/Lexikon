@@ -91,7 +91,8 @@ main#display .inline-block {display: inline-block; }
 
 main#position .positioned-box {
 position: absolute;
-border: 1px solid rgb(0, 47, 255);
+border: 1px solid rgb(0, 36, 199);
+
 }
 
 main#position .middle-box {
@@ -109,5 +110,26 @@ main#position .top-right-box {
 
 main#position article {
     position: relative;
+    padding-top: 500px;
     
+    
+}
+
+main#flexbox .flex {
+    display: flex;
+    width : 800px;
+    height: 400px;
+    border : 1px solid rgb(0, 0, 0);
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+main#flexbox .item {
+width: 200px;
+height : 200px;
+border : 1px solid rgb(0, 0, 0);
+display: flex;
+align-items: center;
+justify-content: center;
 }

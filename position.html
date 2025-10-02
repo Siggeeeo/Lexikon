@@ -14,7 +14,14 @@
 
     <article>
       <h1>Position</h1>
-      <p>Positionering låter oss flytta element på sidan. Det finns fem värden man kan välja på och dem är static(default), relative, absolute, sticky & fixed.</p>
+      <p>Positionering låter oss flytta element på sidan.
+        Det finns fem värden man kan välja på. 
+        Static som är standard vilket betyder att det placeras i sidans flöde.
+        Relative vilket betyder att den behåller sin plats men flyttas lite från den platsen. Man kan använda top:10px; left:10px; för att flytta den detta är bra för att flytta en box lite utan att bryta layouten helt.
+        Absolute är att den placeras i förhållande till närmaste positionerade förälder men inte static. Om ingen position finns så placeras den i body elementet. Den går inte med sidans flöde och kan överlappa andra element.
+        Sticky är en blandning mellan relative och fixed, den är som en relative tills den tex inte visas på sidan längre (eller den når en punkt) då den blir fixed.
+        Fixed är som absolut fast den stannar på sin plats.
+      </p>
 
       <div class="positioned-box middle-box">
         350 px bred och 250 px hög
@@ -36,7 +43,7 @@
       </div>
 
       <div class="positioned-box top-right-box">
-        text som är 200 px från toppen och 100 px från högerkanten. 
+        text som är 200px från toppen och 100px från högerkanten. 
       </div>
 
       </xmp></code>
