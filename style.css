@@ -133,3 +133,28 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
+
+main#recap{background: #ffffff; padding:50px 0;}
+main#recap .recap-text{width:900px; margin:0 auto; color: #ff0000;}
+
+main#recap .banner{
+    background: #ffabee; text-align:center; font-weight:700;
+    padding:8pc 0; margin-bottom:16px;
+}
+
+main#recap h1{font-size:36px; margin: 0 0 8px;}
+main#recap h2{font-size:28px; margin: 0 0 8px;}
+main#recap h3{font-size:24px; margin: 0 0 8px;}
+main#recap h4{font-size:18px; margin: 0 0 12px;}
+
+main#recap p{max-width:700px; ;}
+main#recap a{color: #ff0000;}
+main#recap hr{border:none; border-top:2px solid #161616; margin:16px 0; }
+
+main#recap .recap-img{width:50%; height :auto; display:block; margin:12px 0;}
+
+main#recap .boxes{ display:flex; gap:24px; margin:16px 0; }
+main#recap .box{ width:150px; height:150px; border:2px solid #333; background:#ccc; }
+main#recap .box.b1{ background:#dedede; }  /* Bakgrund */
+main#recap .box.b2{ background:#ab0000; }  /* Text */
+main#recap .box.b3{ background:#ffb2f0; }  /* Header */
