@@ -154,7 +154,22 @@ main#recap hr{border:none; border-top:2px solid #161616; margin:16px 0; }
 main#recap .recap-img{width:50%; height :auto; display:block; margin:12px 0;}
 
 main#recap .boxes{ display:flex; gap:24px; margin:16px 0; }
-main#recap .box{ width:150px; height:150px; border:2px solid #333; background:#ccc; }
-main#recap .box.b1{ background:#dedede; }  /* Bakgrund */
-main#recap .box.b2{ background:#ab0000; }  /* Text */
-main#recap .box.b3{ background:#ffb2f0; }  /* Header */
+main#recap .box{ width:150px; height:150px; border:2px solid #222222; background:#cccccc; }
+main#recap .box.b1{ background:#ab0000; }
+main#recap .box.b2{ background:#ab0000; }
+main#recap .box.b3{ background:#ffb2f0; }
+
+main#recap .recap-form{max-width:360px ; margin:16px 0}
+main#recap .recap-form .form-group{margin-bottom:12px; display: flex; flex-direction: column; gap:6px;}
+
+main#recap fieldset.form-group{
+  border:1px solid #a7a5a5; padding:8px; display:flex; gap:12px; flex-wrap:wrap;
+}
+main#recap button{
+  padding:8px 14px; border:1px solid #272727; background:#ffffff;
+}
+main#recap button:hover{ background:#272727; color:#ffffff; }
+
+main#recap .footer{
+  background:#000000; color:#ffffff; padding:12px; margin-top:24px; font-size:12px;
+}
